@@ -8,7 +8,6 @@ const { getDetails, getIdPass } = require('./Details/GetDetails');
 const Delete = require('./Details/Delete');
 const Update = require('./Details/Update');
 const getTaskCalc  = require('./Details/GetTaskCalc');
-const userName = require('./Details/UserName');
 const router = express.Router();
 
 const middleware = [Protect]
