@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.input{
+    width: 71%;
+    background-color: rgb(252, 252, 252);
+   
+   
+}
+.inner{
+    background-color: rgb(236, 240, 240);
+    margin-left: 5px;
+}
+Button{
+    margin-left: 600px;
+}
+.task-lists{
+    width: 70%;
+    background: rgb(252,235,69);
+    background: linear-gradient(90deg, rgba(252,235,69,1) 0%, rgba(58,177,180,1) 0%, rgba(161,208,121,1) 29%, rgba(29,165,253,1) 100%);
+    height: 100vh;
+    margin-left:230px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.task-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.icos{
+    margin-top: 25px;
+}
+.icon{
+    font-size: 50px;
+    color: #fff;
+ 
+}
+.ictimes{
+    color: blue;
+    font-size: 20px;
+}
+

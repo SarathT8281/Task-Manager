@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background: rgb(14,244,94);
+background: linear-gradient(90deg, rgba(14,244,94,1) 0%, rgba(150,155,231,0.1517857142857143) 0%, rgba(161,208,121,1) 0%, rgba(29,165,253,1) 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    
+    padding: 50px;
+   
+    
+    
+}
+.profile{
+    background: linear-gradient(#9279e5,#5d4969);
+    width: 250px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+    
+}
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+   
+}
+.profile h5,p{
+    color: #fff;
+    
+}
+.profile p{
+    font-size: 10px;
+    margin-left: 15px;
+}
+.profile h5{
+    margin-left: 40px;
+
+}
+
+/* Bio=Graph */
+.bio-graph{
+    background: linear-gradient(#886be7,#4b335a);
+    width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+.bio-details{
+    margin-top: 10px;
+    
+}
+
+/* Task Details */
+.tasks{
+    background: linear-gradient(#6944e1,#8b03e0);
+    width: 900px;
+    height: 300px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 370px;
+    
+    
+    
+
+}
+.task-details{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    font-size: 10px;
+    font-weight: 1000;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.pr{
+    display: flex;
+}
